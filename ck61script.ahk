@@ -25,6 +25,10 @@ CapsLock & a::Send {Left}
 CapsLock & s::Send {Down}
 CapsLock & d::Send {Right}
 
+; Arrow Keys with Ctrl
+LAlt & a::Send ^{Left}
+LAlt & d::Send ^{Right}
+
 ; Other navegation Keys
 CapsLock & e:: Send {End}
 CapsLock & q:: Send {Home}
