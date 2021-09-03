@@ -36,3 +36,8 @@ CapsLock & k:: Send {Ins}
 CapsLock & ,:: Send {Del}
 CapsLock & `;:: Send {PgUp}
 CapsLock & ':: Send {PgDn}
+
+; Navigation between virtual desktops
+
+LAlt & q:: Send ^#{Left}
+LAlt & e:: Send ^#{Right}
