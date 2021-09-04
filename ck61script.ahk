@@ -38,6 +38,11 @@ CapsLock & `;:: Send {PgUp}
 CapsLock & ':: Send {PgDn}
 
 ; Navigation between virtual desktops
-
 LAlt & q:: Send ^#{Left}
 LAlt & e:: Send ^#{Right}
+
+; Navigation between browser tabs like vim
+; Alt + l = go to the right tab
+; Alt + h = go to the left tab
+LAlt & l::Send ^{Tab}
+LAlt & h::Send ^+{Tab}
