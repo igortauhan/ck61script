@@ -46,3 +46,7 @@ LAlt & e:: Send ^#{Right}
 ; Alt + h = go to the left tab
 LAlt & l::Send ^{Tab}
 LAlt & h::Send ^+{Tab}
+
+; Configs like bspwm (with LAlt the master key)
+; Close window
+LAlt & w::Send !{F4}
